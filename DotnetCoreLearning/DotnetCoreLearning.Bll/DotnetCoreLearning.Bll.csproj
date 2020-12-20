@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetCoreLearning.Mdl\DotnetCoreLearning.Mdl.csproj" />
+    <ProjectReference Include="..\DotnetCoreLearning.Dal\DotnetCoreLearning.Dal.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
